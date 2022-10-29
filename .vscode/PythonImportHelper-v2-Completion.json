@@ -1,0 +1,701 @@
+[
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "aiosqlite",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiosqlite",
+        "description": "aiosqlite",
+        "detail": "aiosqlite",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "sha256",
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "isExtraImport": true,
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "logger = logging.getLogger(\"General\")\nlogger.setLevel(logging.INFO)\n#   ___ ___  _  _ ___ _____ _   _  _ _____ ___ \n#  / __/ _ \\| \\| / __|_   _/_\\ | \\| |_   _/ __|\n# | (_| (_) | .` \\__ \\ | |/ _ \\| .` | | | \\__ \\\n#  \\___\\___/|_|\\_|___/ |_/_/ \\_\\_|\\_| |_| |___/                                       \nAPP_NAME = \"Pocket\"\nUSERNAME = \"username\"\nSQLITE_DB = \"db.sqlite3\"\nTABLES = (\"categories\", \"users\", \"orders\", \"items\",)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "APP_NAME",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "APP_NAME = \"Pocket\"\nUSERNAME = \"username\"\nSQLITE_DB = \"db.sqlite3\"\nTABLES = (\"categories\", \"users\", \"orders\", \"items\",)\nTABLES_COUNT = len(TABLES)\nHTTP_100_CONTINUE = 100\nHTTP_101_SWITCHING_PROTOCOLS = 101\nHTTP_102_PROCESSING = 102\nHTTP_103_EARLY_HINTS = 103\nHTTP_200_OK = 200",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "USERNAME",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "USERNAME = \"username\"\nSQLITE_DB = \"db.sqlite3\"\nTABLES = (\"categories\", \"users\", \"orders\", \"items\",)\nTABLES_COUNT = len(TABLES)\nHTTP_100_CONTINUE = 100\nHTTP_101_SWITCHING_PROTOCOLS = 101\nHTTP_102_PROCESSING = 102\nHTTP_103_EARLY_HINTS = 103\nHTTP_200_OK = 200\nHTTP_201_CREATED = 201",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "SQLITE_DB",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "SQLITE_DB = \"db.sqlite3\"\nTABLES = (\"categories\", \"users\", \"orders\", \"items\",)\nTABLES_COUNT = len(TABLES)\nHTTP_100_CONTINUE = 100\nHTTP_101_SWITCHING_PROTOCOLS = 101\nHTTP_102_PROCESSING = 102\nHTTP_103_EARLY_HINTS = 103\nHTTP_200_OK = 200\nHTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "TABLES",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "TABLES = (\"categories\", \"users\", \"orders\", \"items\",)\nTABLES_COUNT = len(TABLES)\nHTTP_100_CONTINUE = 100\nHTTP_101_SWITCHING_PROTOCOLS = 101\nHTTP_102_PROCESSING = 102\nHTTP_103_EARLY_HINTS = 103\nHTTP_200_OK = 200\nHTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "TABLES_COUNT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "TABLES_COUNT = len(TABLES)\nHTTP_100_CONTINUE = 100\nHTTP_101_SWITCHING_PROTOCOLS = 101\nHTTP_102_PROCESSING = 102\nHTTP_103_EARLY_HINTS = 103\nHTTP_200_OK = 200\nHTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_100_CONTINUE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_100_CONTINUE = 100\nHTTP_101_SWITCHING_PROTOCOLS = 101\nHTTP_102_PROCESSING = 102\nHTTP_103_EARLY_HINTS = 103\nHTTP_200_OK = 200\nHTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_101_SWITCHING_PROTOCOLS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_101_SWITCHING_PROTOCOLS = 101\nHTTP_102_PROCESSING = 102\nHTTP_103_EARLY_HINTS = 103\nHTTP_200_OK = 200\nHTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_102_PROCESSING",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_102_PROCESSING = 102\nHTTP_103_EARLY_HINTS = 103\nHTTP_200_OK = 200\nHTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_103_EARLY_HINTS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_103_EARLY_HINTS = 103\nHTTP_200_OK = 200\nHTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_200_OK",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_200_OK = 200\nHTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_201_CREATED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_202_ACCEPTED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_203_NON_AUTHORITATIVE_INFORMATION",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_204_NO_CONTENT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_205_RESET_CONTENT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_206_PARTIAL_CONTENT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_207_MULTI_STATUS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_208_ALREADY_REPORTED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_226_IM_USED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_300_MULTIPLE_CHOICES",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_301_MOVED_PERMANENTLY",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_302_FOUND",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_303_SEE_OTHER",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_304_NOT_MODIFIED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_305_USE_PROXY",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_306_RESERVED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_307_TEMPORARY_REDIRECT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_308_PERMANENT_REDIRECT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_400_BAD_REQUEST",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_401_UNAUTHORIZED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_402_PAYMENT_REQUIRED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_403_FORBIDDEN",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_404_NOT_FOUND",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_405_METHOD_NOT_ALLOWED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_406_NOT_ACCEPTABLE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_407_PROXY_AUTHENTICATION_REQUIRED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_408_REQUEST_TIMEOUT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_409_CONFLICT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_418_IM_A_TEAPOT = 418",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_410_GONE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_418_IM_A_TEAPOT = 418\nHTTP_421_MISDIRECTED_REQUEST = 421",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_411_LENGTH_REQUIRED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_418_IM_A_TEAPOT = 418\nHTTP_421_MISDIRECTED_REQUEST = 421\nHTTP_422_UNPROCESSABLE_ENTITY = 422",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_412_PRECONDITION_FAILED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_418_IM_A_TEAPOT = 418\nHTTP_421_MISDIRECTED_REQUEST = 421\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_413_REQUEST_ENTITY_TOO_LARGE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_418_IM_A_TEAPOT = 418\nHTTP_421_MISDIRECTED_REQUEST = 421\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_414_REQUEST_URI_TOO_LONG",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_418_IM_A_TEAPOT = 418\nHTTP_421_MISDIRECTED_REQUEST = 421\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_425_TOO_EARLY = 425",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_415_UNSUPPORTED_MEDIA_TYPE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_418_IM_A_TEAPOT = 418\nHTTP_421_MISDIRECTED_REQUEST = 421\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_425_TOO_EARLY = 425\nHTTP_426_UPGRADE_REQUIRED = 426",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_418_IM_A_TEAPOT = 418\nHTTP_421_MISDIRECTED_REQUEST = 421\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_425_TOO_EARLY = 425\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_417_EXPECTATION_FAILED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_417_EXPECTATION_FAILED = 417\nHTTP_418_IM_A_TEAPOT = 418\nHTTP_421_MISDIRECTED_REQUEST = 421\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_425_TOO_EARLY = 425\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_418_IM_A_TEAPOT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_418_IM_A_TEAPOT = 418\nHTTP_421_MISDIRECTED_REQUEST = 421\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_425_TOO_EARLY = 425\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_421_MISDIRECTED_REQUEST",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_421_MISDIRECTED_REQUEST = 421\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_425_TOO_EARLY = 425\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_422_UNPROCESSABLE_ENTITY",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_425_TOO_EARLY = 425\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_423_LOCKED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_425_TOO_EARLY = 425\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_424_FAILED_DEPENDENCY",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_424_FAILED_DEPENDENCY = 424\nHTTP_425_TOO_EARLY = 425\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_425_TOO_EARLY",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_425_TOO_EARLY = 425\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_426_UPGRADE_REQUIRED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_428_PRECONDITION_REQUIRED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_429_TOO_MANY_REQUESTS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_500_INTERNAL_SERVER_ERROR",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_510_NOT_EXTENDED = 510",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_501_NOT_IMPLEMENTED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_502_BAD_GATEWAY",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\n#   ___ ___  _  _ ___ ___ ___ ",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_503_SERVICE_UNAVAILABLE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\n#   ___ ___  _  _ ___ ___ ___ \n#  / __/ _ \\| \\| | __|_ _/ __|",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_504_GATEWAY_TIMEOUT",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\n#   ___ ___  _  _ ___ ___ ___ \n#  / __/ _ \\| \\| | __|_ _/ __|\n# | (_| (_) | .` | _| | | (_ |",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_505_HTTP_VERSION_NOT_SUPPORTED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\n#   ___ ___  _  _ ___ ___ ___ \n#  / __/ _ \\| \\| | __|_ _/ __|\n# | (_| (_) | .` | _| | | (_ |\n#  \\___\\___/|_|\\_|_| |___\\___|               ",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_506_VARIANT_ALSO_NEGOTIATES",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\n#   ___ ___  _  _ ___ ___ ___ \n#  / __/ _ \\| \\| | __|_ _/ __|\n# | (_| (_) | .` | _| | | (_ |\n#  \\___\\___/|_|\\_|_| |___\\___|               \ndb = None",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_507_INSUFFICIENT_STORAGE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\n#   ___ ___  _  _ ___ ___ ___ \n#  / __/ _ \\| \\| | __|_ _/ __|\n# | (_| (_) | .` | _| | | (_ |\n#  \\___\\___/|_|\\_|_| |___\\___|               \ndb = None\n#  ___ _  _ ___ _____   ___  ___ ",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_508_LOOP_DETECTED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_508_LOOP_DETECTED = 508\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\n#   ___ ___  _  _ ___ ___ ___ \n#  / __/ _ \\| \\| | __|_ _/ __|\n# | (_| (_) | .` | _| | | (_ |\n#  \\___\\___/|_|\\_|_| |___\\___|               \ndb = None\n#  ___ _  _ ___ _____   ___  ___ \n# |_ _| \\| |_ _|_   _| |   \\| _ )",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_510_NOT_EXTENDED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\n#   ___ ___  _  _ ___ ___ ___ \n#  / __/ _ \\| \\| | __|_ _/ __|\n# | (_| (_) | .` | _| | | (_ |\n#  \\___\\___/|_|\\_|_| |___\\___|               \ndb = None\n#  ___ _  _ ___ _____   ___  ___ \n# |_ _| \\| |_ _|_   _| |   \\| _ )\n#  | || .` || |  | |   | |) | _ \\",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_511_NETWORK_AUTHENTICATION_REQUIRED",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\n#   ___ ___  _  _ ___ ___ ___ \n#  / __/ _ \\| \\| | __|_ _/ __|\n# | (_| (_) | .` | _| | | (_ |\n#  \\___\\___/|_|\\_|_| |___\\___|               \ndb = None\n#  ___ _  _ ___ _____   ___  ___ \n# |_ _| \\| |_ _|_   _| |   \\| _ )\n#  | || .` || |  | |   | |) | _ \\\n# |___|_|\\_|___| |_|   |___/|___/",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "db = None\n#  ___ _  _ ___ _____   ___  ___ \n# |_ _| \\| |_ _|_   _| |   \\| _ )\n#  | || .` || |  | |   | |) | _ \\\n# |___|_|\\_|___| |_|   |___/|___/\nasync def init_db() -> None:\n    \"\"\"Checks if SQLite db exists, if not creates tables and user.\n    :return: None\n    \"\"\"\n    global db",
+        "detail": "app",
+        "documentation": {}
+    }
+]
